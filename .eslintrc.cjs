@@ -11,5 +11,11 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "processor": "vue/.vue"
+    }
+  ]
 }
